@@ -103,7 +103,7 @@ const PinDetail = ({ user }) => {
               className="flex gap-2 mt-5 items-center bg-white rounded-lg "
             >
               <img
-                src={pinDetail?.postedBy.image}
+                src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png"
                 className="w-10 h-10 rounded-full"
                 alt="user-profile"
               />
@@ -117,7 +117,7 @@ const PinDetail = ({ user }) => {
                   key={item.comment}
                 >
                   <img
-                    src={item.postedBy?.image}
+                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png"
                     className="w-10 h-10 rounded-full cursor-pointer"
                     alt="user-profile"
                   />
@@ -131,7 +131,7 @@ const PinDetail = ({ user }) => {
             <div className="flex flex-wrap mt-6 gap-3">
               <Link to={`/user-profile/${user._id}`}>
                 <img
-                  src={user.image}
+                  src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png"
                   className="w-10 h-10 rounded-full cursor-pointer"
                   alt="user-profile"
                 />
